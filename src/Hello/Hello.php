@@ -4,7 +4,7 @@ namespace App;
 
 class Hello
 {
-    public function talk()
+    function talk()
     {
         return "Hello World !";
     }

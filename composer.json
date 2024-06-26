@@ -3,8 +3,10 @@
   "description": "quette",
   "autoload": {
     "psr-4": {
-      "Wild\\App\\": "src/"
+      "App\\": "src/"
     }
   },
-  "require": {}
+  "require": {
+    "symfony/mailer": "^7.1"
+  }
 }
